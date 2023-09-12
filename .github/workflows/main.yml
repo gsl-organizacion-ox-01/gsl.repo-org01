@@ -20,5 +20,6 @@ jobs:
        cx_client_id: ${{ secrets.GSL_GITHUB_IDCLIENT}}
        cx_client_secret: ${{ secrets.GSL_GitHub_SECRET}}
        branch: ${{github.ref}}
+       #Modificacion para pruebas gitHub-checkmarx-Azure
        additional_params:
         --threshold "sast-medium=2;sca-medium=1"
